@@ -10,4 +10,5 @@ abstract class ToonGod : MadaraNoAjax() {
     override val chapterDateFormat = DateTimeFormatter.ofPattern("d MMM yyyy", Locale.US)
     override val mangaSubString = "webtoons"
     override val genreDirectory = "webtoon-genre"
+    override val filterGenresSelector = "body"
 }
